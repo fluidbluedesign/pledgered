@@ -1,0 +1,65 @@
+/* CSS Document */
+
+#pagecontent{
+	display: flex;
+	flex-flow: column;
+	align-self: stretch;
+	align-items: center;
+}
+
+
+hero {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	height: 30em;
+}
+
+.bigText{
+	font-size: 300%;
+	color: #595959;
+}
+
+process {
+	display: flex;
+	flex-flow: row;
+	align-self: stretch;
+	background-color: lightgray;
+	justify-content: center;
+}
+
+.processBox{
+	display: flex;
+	background-color: white;	
+	padding: 2px 20px;
+	margin: 10px;
+	
+}
+
+faqs{
+	display: flex;
+	flex-flow: column;
+	align-self: stretch;
+	justify-content: center;
+	text-align: center;
+}
+
+
+faqBoxContainer {
+	display: flex;
+	flex-flow: row;
+	align-self: stretch;
+	justify-content: center;
+	background-color: lightgray;
+}
+	
+}
+
+.faqBox {
+	display: flex;
+	width: 10em;
+	background-color: white;	
+	padding: 2px 20px;
+	margin: 10px;
+}
