@@ -18,18 +18,35 @@ leftItems {
 	
 }
 
-profileItems {
+
+profileItems{
 	display: flex;
 	flex-flow: row;
-	flex 
 	background-color: lightgrey;
-	padding: 40px;
+	
+	
+}
 
+#mainProfilePicture {
+	width: 10em;
+}
+
+
+
+#profileText {
+	display: flex;
+	flex-flow: column;
+	padding-left: 40px;
+justify-content: flex-start;
+	align-items: flex-start;
+	
 }
 
 statusProgress {
 	display: flex;
 	flex-flow: column;
+	max-height: 100vh;
+	justify-content: space-between;
 	background-color: lightgrey;
 	padding: 20px;
 }
@@ -45,18 +62,3 @@ buddyFeed {
 
 
 
-#mainProfilePicture {
-	width: 20em;
-	padding-right: 5em;
-}
-
-.userName {
-	font-size: 30px;
-}
-
-#profileText {
-	display: flex;
-	flex-flow: column;
-	align-content: flex-start;
-	
-}
