@@ -1,6 +1,6 @@
 /* CSS Document */
 
-#pagecontent{
+#pageContent{
 	display: flex;
 	flex-flow: column;
 	align-self: stretch;
@@ -11,55 +11,57 @@
 hero {
 	display: flex;
 	flex-flow: column;
+	align-self: stretch;
 	align-items: center;
 	justify-content: center;
 	height: 30em;
+	background-color: blue;
 }
 
+
+
 .bigText{
+	flex-flow: row;
+	justify-content: center;
+	align-content: center;
 	font-size: 300%;
 	color: #595959;
 }
 
-process {
-	display: flex;
-	flex-flow: row;
-	align-self: stretch;
-	background-color: lightgray;
-	justify-content: center;
+.light {
+	color: yellow;
 }
 
-.processBox{
+
+header {
 	display: flex;
-	background-color: white;	
-	padding: 2px 20px;
-	margin: 10px;
+	justify-content: center;
+	background-color: white;
 	
 }
 
-faqs{
+section {
 	display: flex;
 	flex-flow: column;
 	align-self: stretch;
+	align-content: center;
+	background-color: lightgray;
 	justify-content: center;
-	text-align: center;
 }
 
-
-faqBoxContainer {
+.box{
 	display: flex;
 	flex-flow: row;
-	align-self: stretch;
-	justify-content: center;
-	background-color: lightgray;
-}
-	
-}
-
-.faqBox {
-	display: flex;
-	width: 10em;
 	background-color: white;	
 	padding: 2px 20px;
 	margin: 10px;
+	
 }
+
+.boxContainer {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;	
+	
+}
+
