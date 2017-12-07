@@ -21,6 +21,7 @@ leftItems {
 profileItems {
 	display: flex;
 	flex-flow: row;
+	flex 
 	background-color: lightgrey;
 	padding: 40px;
 
@@ -51,4 +52,11 @@ buddyFeed {
 
 .userName {
 	font-size: 30px;
+}
+
+#profileText {
+	display: flex;
+	flex-flow: column;
+	align-content: flex-start;
+	
 }
