@@ -20,11 +20,10 @@ leftItems {
 
 profileItems {
 	display: flex;
-	flex-flow: column;
+	flex-flow: row;
 	background-color: lightgrey;
-	padding: 20px;
-	
-	
+	padding: 40px;
+
 }
 
 statusProgress {
@@ -42,3 +41,14 @@ buddyFeed {
 	background-color: lightgrey;
 }
 
+
+
+
+#mainProfilePicture {
+	width: 20em;
+	padding-right: 5em;
+}
+
+.userName {
+	font-size: 30px;
+}
