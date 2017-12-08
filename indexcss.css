@@ -15,7 +15,6 @@ hero {
 	align-items: center;
 	justify-content: center;
 	height: 30em;
-	background-color: blue;
 }
 
 
@@ -25,43 +24,72 @@ hero {
 	justify-content: center;
 	align-content: center;
 	font-size: 300%;
-	color: #595959;
+	color: #464646;
 }
 
 .light {
-	color: yellow;
+	color: white;
 }
 
+.mediumText {
+	width: 50%;
+	font-size: 120%;
+	
+}
 
 header {
 	display: flex;
 	justify-content: center;
-	background-color: white;
 	
 }
 
-section {
+.section {
 	display: flex;
 	flex-flow: column;
 	align-self: stretch;
 	align-content: center;
-	background-color: lightgray;
+	background-color: #E5E5E5;
 	justify-content: center;
-}
-
-.box{
-	display: flex;
-	flex-flow: row;
-	background-color: white;	
-	padding: 2px 20px;
-	margin: 10px;
-	
+	padding-bottom: 2em;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 .boxContainer {
 	display: flex;
 	flex-flow: row;
-	justify-content: center;	
+	align-self: center;
 	
 }
+
+.box{
+	display: flex;
+	flex-flow: column;
+	flex: 1;
+	background-color: white;	
+	padding: 30px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	text-align: center;
+	align-items: center;
+	
+}
+
+
+
+.boxTitle{
+	font-weight: bold;
+	font-size: 0.9vw;
+	margin: 0;
+	color: #464646;
+}
+
+circle{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	background-color: grey;
+	margin-bottom: 20px;
+}
+
 

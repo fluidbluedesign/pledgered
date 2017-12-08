@@ -4,6 +4,9 @@
 body{
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	margin: 0px;
+	display: flex;
+	flex-flow: column;
+	align-content: stretch;
 }
 
 
@@ -25,23 +28,27 @@ body{
 
 #headings{
 	display: flex;
+	flex-flow: row;
+	align-content: stretch;
+	justify-content: center;
 	background-color: #ef0000;
 	height: 5em;
-	align-items: center;
+}
+
+navbar {
+	display: flex;
+	justify-content: space-between;
 }
 
 #logo{
 	display: flex;
 	color: #ffffff;
 	padding-left: 30px;
-	
-	
 }
 
 .navi{
 	display: flex;
 	padding-right: 30px;
-	margin-left: auto;
 	
 }
 
@@ -64,5 +71,7 @@ body{
 	text-decoration: none;
 }
 
-
+.widthControl{
+	width: 70vw;
+}
 
