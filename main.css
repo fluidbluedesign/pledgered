@@ -43,12 +43,10 @@ navbar {
 #logo{
 	display: flex;
 	color: #ffffff;
-	padding-left: 30px;
 }
 
 .navi{
 	display: flex;
-	padding-right: 30px;
 	
 }
 
@@ -63,6 +61,7 @@ navbar {
 	margin-left: 15px;
 	align-self: center;
 	background-color: #ffffff;
+	color: #464646;
 	
 	
 }
@@ -72,6 +71,25 @@ navbar {
 }
 
 .widthControl{
-	width: 70vw;
+	width: 70%;
 }
 
+@media only screen and (max-width: 1200px) {
+	.widthControl {
+		width: 95vw;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#headings {
+		height: 10em;		
+	}
+	
+	navbar {
+		flex-flow: column;
+		align-items: center;
+		justify-content: center;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+}
