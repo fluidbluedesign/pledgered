@@ -8,6 +8,8 @@
 	<link href="main.css" rel="stylesheet" type="text/css">
 	<link href="indexcss.css" rel="stylesheet" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="jquery.scrollme.js"></script>
+	
 </head>
 
 <body>
@@ -31,7 +33,7 @@
 		
 		</hero>
 		
-		<section class= "section">
+		<section class= "section scrollme">
 			
 			<header class="bigText">
 			<p>It's so bloody easy.</p>
@@ -39,7 +41,7 @@
 			
 			<container class = "boxContainer widthControl">
 		<box class="box">
-			<circle style="background-color:limegreen;"></circle>
+			<circle style="background-color:limegreen;" class="animateme" data-when="enter" data-from="0.5" data-to="0" data-rotatey="360"></circle>
 			<p class="boxTitle">Sign Up for Pledge Red</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut accumsan lacus quis varius tincidunt. Mauris dictum tortor ut ipsum cursus luctus.</p>
 			</box>
