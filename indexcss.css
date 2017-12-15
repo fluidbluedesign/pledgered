@@ -22,6 +22,8 @@ hero {
     background-image: url("images/RedTexture.jpg");
 }
 
+
+
 textWidthController{
     max-width: 670px;
     padding-left: 30px;
@@ -81,7 +83,7 @@ header {
 	display: flex;
 	flex-flow: row;
 	align-self: center;
-    padding-top: 40px;
+    padding-top: 45px;
     max-width: 1200px;
 }
 
@@ -244,6 +246,14 @@ heroImageContainerRight {
 }
 
 .bottomMostElement {
-    padding-top: 50px;
+    padding-top: 120px;
     padding-bottom: 150px;
+}
+
+#faq {
+    margin-top: 10px;
+}
+
+#learnMore {
+    background-color: #EBEBEB;
 }

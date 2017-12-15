@@ -22,19 +22,14 @@
     <div id="headings">
         
         <navbar class="widthControl">
-                    <navButton id="desktopNavi" class="navi">
-                    <a href="index.html">HOME</a></navButton>
                 <navButton id="desktopNavi" class="usualButton navi">
-                    <a href="faqs.html">FAQS</a></navButton>
+                    <a href="#faq">FAQS</a></navButton>
 
                 <logoContainer>
                     <a href="index.html"><img src="images/logofinal.svg" width="300px" alt="PLEDGE RED"></a>
                 </logoContainer>
-
                 <navButton id="desktopNavi" class="usualButton navi">
-                    <a href="download.html">SHOP</a></navButton>
-                <navButton id="desktopNavi" class="usualButton navi">
-                    <a href="download.html">DOWNLOAD</a></navButton>
+                    <a href="#downloadId">DOWNLOAD</a></navButton>
             <burgerDiv><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><img src="images/burger.svg"></a></burgerDiv>
             
             
@@ -43,13 +38,9 @@
         </div>
         <burgerMenu id="burgerMenu">
                 <navButton class="navi">
-                    <a href="index.html">HOME</a></navButton>
+                    <a href="#faq">FAQS</a></navButton>
                 <navButton class="usualButton navi">
-                    <a href="faqs.html">FAQS</a></navButton>
-                <navButton class="usualButton navi">
-                    <a href="shop.html">SHOP</a></navButton>
-                <navButton class="usualButton navi">
-                    <a href="download.html">DOWNLOAD</a></navButton>
+                    <a href="#downloadId">DOWNLOAD</a></navButton>
         </burgerMenu>
     </div>
     
@@ -80,7 +71,7 @@
     <section class="section scrollme">
 
         <header>
-            <p class="bigText smaller">It's quite simple.</p>
+            <p id="faq" class="bigText smaller">It's quite simple.</p>
             <textWidthController>
                 <p class="mediumText">Just one donation can potentially save 3 lives. Your generosity is making a huge difference to people across the country.</p>
             </textWidthController>
@@ -114,8 +105,9 @@
             </box>
 
         </container>
-    </section>
-
+        
+        
+   
     <hero id="secondHero">
         <textWidthController>
             <p class="bigText light">What's Pledge Red?</p>
@@ -127,7 +119,6 @@
         </textWidthController>
 
     </hero>
-
 
 
     <section class="section">
@@ -166,6 +157,7 @@
                     <p class="appBoxTitle">Collect tokens</p>
                     <p>For each donation and every share, you receive tokens to either save or spend.</p>
                 </box>
+                
                 <box class="appIconBox">
                     <div class="appIconContainerToken">
                     <img id ="tokenBack"  src="animation/Token-03.svg">
@@ -175,6 +167,7 @@
                 </box>
                 
             </box>
+            
             <box class="appProcessBoxTextSecond scrollme">
                 <box class="appIconBox">
                     <div class="appIconContainer">
@@ -197,7 +190,7 @@
     </section>
 
 
-    <hero class="bottomMostElement">
+    <hero class="bottomMostElement" id="downloadId">
         <p class="bigText">Get the app now.</p>
 
 

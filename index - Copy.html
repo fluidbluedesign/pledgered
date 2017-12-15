@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled Document</title>
+    <link href="reset.css" rel="stylesheet" type="text/css">
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="indexcss.css" rel="stylesheet" type="text/css">
+    <link href="indexanimations.css" rel="stylesheet" type="text/css">
+    <script src="jquery-2.2.4.min.js"></script>
+    <script src="jquery.scrollme.js"></script>
+    <script src="indexjs.js"></script>
+
+</head>
+
+<body class="scrollme">
+    <div class="headingContainerProgressLine">
+    <line style="background-color:red; width:100vw; height:5px;" class="animateme" data-when="view" data-from="1" data-to="0" data-scalex="0"></line>
+        
+    <div id="headings">
+        
+        <navbar class="widthControl">
+                    <navButton id="desktopNavi" class="navi">
+                    <a href="index.html">HOME</a></navButton>
+                <navButton id="desktopNavi" class="usualButton navi">
+                    <a href="faqs.html">FAQS</a></navButton>
+
+                <logoContainer>
+                    <a href="index.html"><img src="images/logofinal.svg" width="300px" alt="PLEDGE RED"></a>
+                </logoContainer>
+
+                <navButton id="desktopNavi" class="usualButton navi">
+                    <a href="download.html">SHOP</a></navButton>
+                <navButton id="desktopNavi" class="usualButton navi">
+                    <a href="download.html">DOWNLOAD</a></navButton>
+            <burgerDiv><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><img src="images/burger.svg"></a></burgerDiv>
+            
+            
+            </navbar>
+        
+        </div>
+        <burgerMenu id="burgerMenu">
+                <navButton class="navi">
+                    <a href="index.html">HOME</a></navButton>
+                <navButton class="usualButton navi">
+                    <a href="faqs.html">FAQS</a></navButton>
+                <navButton class="usualButton navi">
+                    <a href="shop.html">SHOP</a></navButton>
+                <navButton class="usualButton navi">
+                    <a href="download.html">DOWNLOAD</a></navButton>
+        </burgerMenu>
+    </div>
+    
+    <div id="gradientBackground">
+    
+
+        <hero id="firstHero">
+            <p class="bigText">We need you to donate blood.</p>
+            <textWidthController>
+                <p class="mediumText">Giving blood saves lives. The blood you give is a lifeline in an emergency and for patients who need long-term treatments.
+                </p>
+                <p class="mediumText">
+                Many of these patients would not be alive today if donors had not generously given a small amount of their time to donate blood.
+                </p>
+
+            </textWidthController>
+
+        </hero>
+         <heroImageContainerLeft>
+            <img src="images/Needle.png">
+        </heroImageContainerLeft>
+        <heroImageContainerRight>
+            <img src="images/BloodCells.png">
+        </heroImageContainerRight>
+
+    </div>
+
+    <section class="section scrollme">
+
+        <header>
+            <p class="bigText smaller">It's quite simple.</p>
+            <textWidthController>
+                <p class="mediumText">Just one donation can potentially save 3 lives. Your generosity is making a huge difference to people across the country.</p>
+            </textWidthController>
+        </header>
+
+        <container class="boxContainer">
+            <box class="box">
+                <img src="images/process1.png">
+                <p class="boxTitle">1. Sign Up</p>
+                <p class="boxText">At first you will be registered and then asked to complete a general questionnaire to make sure you are in good health.</p>
+            </box>
+            <box class="box">
+                <img src="images/process2.png">
+                <p class="boxTitle">2. Drop Test</p>
+                <p class="boxText">The finger prick test is when a drop of blood is taken to test the haemoglobin levels in your blood and make sure you are eligible for donating.</p>
+            </box>
+            <box class="box">
+                <img src="images/process3.png">
+                <p class="boxTitle">3. Give Blood</p>
+                <p class="boxText">The donation itself takes less than 10 minutes. Staff on are on hand to make sure you are comfortable.</p>
+            </box>
+            <box class="box">
+                <img src="images/process4.png">
+                <p class="boxTitle">4. Cuppa</p>
+                <p class="boxText">Now you can relax. It’s normal to feel lightheaded after your donation which is why resting afterwards is important.</p>
+            </box>
+            <box class="box">
+                <img src="images/process5.png">
+                <p class="boxTitle">5. Save Lives!</p>
+                <p class="boxText">Just one donation can potentially save 3 lives. Your generosity is making a huge difference to people across the country.</p>
+            </box>
+
+        </container>
+    </section>
+
+    <hero id="secondHero">
+        <textWidthController>
+            <p class="bigText light">What's Pledge Red?</p>
+            <p class="mediumText light">Pledge Red aims to encourage and increase the number of donations from both existing and new blood donors.
+            </p>
+            <p class="mediumText light">We work to track the progress of our donors, letting them know the difference they make to many people’s lives every day.</p>
+            <p class="mediumText light">                
+            As a thank you for their generosity, we set up a rewards programme which seeks to encourage and promote blood donating across the country.</p>
+        </textWidthController>
+
+    </hero>
+
+
+
+    <section class="section">
+
+        <container class="appBoxContainer">
+
+            <box class="appProcessBoxTextFirst scrollme">
+                <box class="appProcessText">
+                    <p class="appBoxTitle">Track your progress</p>
+                    <p>Each time you donate, your progress will be recorded, allowing you to see the impact you are making. </p>
+                </box>
+                <box class="appIconBox">
+                    <div class="appIconContainer">
+                    <img id ="graph" src="animation/graph-02.svg">
+                    <img id ="blood" src="animation/graph-01.svg" class="animateme" data-when="span" data-from="0" data-to="1" data-translatey="-250">
+                    </div>
+                </box>
+            </box>
+            <box class="appProcessBoxTextSecond">
+                <box class="appIconBox">
+                    <div class="appIconContainer scrollme">
+                    <img id ="megaphone"  src="animation/Megaphone-01.svg">
+                    <img id ="wave1" src="animation/Megaphone-02.svg" class="animateme" data-when="span" data-from="1" data-to="0.3" data-opacity="0">
+                    <img id ="wave2" src="animation/Megaphone-03.svg" class="animateme" data-when="span" data-from="1" data-to="0.4" data-opacity="0">
+                    <img id ="wave3" src="animation/Megaphone-04.svg" class="animateme" data-when="span" data-from="1" data-to="0.5" data-opacity="0">
+                    </div>
+                </box>
+                <box class="appProcessText">
+                    <p class="appBoxTitle">Share with friends</p>
+                    <p>Spread the word and let your friends see your progress. The more friends you share with, the more tokens you gain.</p>
+                </box>
+                
+            </box>
+            <box class="appProcessBoxTextFirst scrollme">
+                <box class="appProcessText">
+                    <p class="appBoxTitle">Collect tokens</p>
+                    <p>For each donation and every share, you receive tokens to either save or spend.</p>
+                </box>
+                <box class="appIconBox">
+                    <div class="appIconContainerToken">
+                    <img id ="tokenBack"  src="animation/Token-03.svg">
+                    <img id ="token" src="animation/Token-02.svg" class="animateme" data-when="span" data-from="0" data-to="1" data-translatey="250">
+                    <img id ="tokenFront" src="animation/Token-01.svg">
+                    </div>
+                </box>
+                
+            </box>
+            <box class="appProcessBoxTextSecond scrollme">
+                <box class="appIconBox">
+                    <div class="appIconContainer">
+                    <img id ="shirt" src="animation/Box-02.svg" class="animateme" data-when="span" data-from="0" data-to="1" data-translatey="-50">
+                    <img id ="shirtbox" src="animation/Box-01.svg">
+                    </div>
+                    </box>
+                <box class="appProcessText">
+                    <p class="appBoxTitle">Get your rewards!</p>
+                    <p>Trade your tokens for T-shirts, mugs and badges and help increase the number of blood donors across the UK.</p>
+                </box>
+                
+                
+            </box>
+
+        </container>
+
+
+
+    </section>
+
+
+    <hero class="bottomMostElement">
+        <p class="bigText">Get the app now.</p>
+
+
+        <a href="download.html"><img src="images/appstore.png" width="170px"></a>
+        <a href="download.html"><img src="images/googleplay.png" width="200px"></a>
+        
+    </hero>
+
+
+
+
+    </div>
+    </widthController>
+</body>
+
+</html>
