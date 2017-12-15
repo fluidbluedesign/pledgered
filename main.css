@@ -49,6 +49,7 @@ body{
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    z-index: 9;
 }
 
 
@@ -93,6 +94,7 @@ navbar {
 
 .navi a{
 	text-decoration: none;
+    color: black;
 }
 
 linksLeft{
@@ -156,9 +158,14 @@ logoContainer p{
         padding-top: 10px;
     }
     
+    logocontainer img {
+        width: 250px;
+    }
+    
     burgerDiv{
         display: flex;
         padding-right: 20px;
+        padding-top: 10px;
     }
     
 	navbar {

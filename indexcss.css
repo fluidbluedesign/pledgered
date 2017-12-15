@@ -122,7 +122,7 @@ circle{
 	flex-flow: column;
 	align-self: center;
     padding-top: 30px;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 .appProcessBoxTextFirst{
@@ -161,11 +161,24 @@ circle{
     align-items: center;
 }
 
+.appBoxTitle{
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0;
+	color: #464646;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .appProcessText{
     display: flex;
     flex-flow: column;
     flex: 1;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    position: relative;
+    z-index: 8;
 }
 
 
@@ -197,16 +210,22 @@ heroImageContainerRight {
         flex-flow: column-reverse;
         align-items: stretch;
         align-self: stretch;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     
     .appProcessBoxTextSecond {
         flex-flow: column;
         align-items: stretch;
         align-self: stretch;
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
     
     .bigText{
         font-size: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     
     .mediumText {
@@ -222,4 +241,9 @@ heroImageContainerRight {
 .boxText {
     margin: 0;
     font-size: 16px;
+}
+
+.bottomMostElement {
+    padding-top: 50px;
+    padding-bottom: 150px;
 }
