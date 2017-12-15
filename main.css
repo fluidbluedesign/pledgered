@@ -51,10 +51,6 @@ body{
 	justify-content: center;
     padding-top: 2em;
     padding-bottom: 2em;
-    background-color: #EBEBEB;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
 }
 
 navbar {
@@ -129,9 +125,7 @@ logoContainer p{
 }
 
 @media only screen and (max-width: 600px) {
-	#headings {
-		height: 10em;		
-	}
+
 	
 	navbar {
 		flex-flow: column;
@@ -144,4 +138,13 @@ logoContainer p{
 
 #gradientBackground {
     background: linear-gradient(#EBEBEB, white);
+}
+
+.headingContainerProgressLine {
+    display: flex;
+    flex-flow: column;
+    background-color: #EBEBEB;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
