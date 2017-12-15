@@ -1,11 +1,5 @@
 /* CSS Document */
 
-#pageContent{
-	display: flex;
-	flex-flow: column;
-	align-self: stretch;
-	align-items: center;
-}
 
 
 hero {
@@ -14,7 +8,14 @@ hero {
 	align-self: stretch;
 	align-items: center;
 	justify-content: center;
-	height: 30em;
+    text-align: center;
+	height: 35em;
+}
+
+textWidthController{
+    max-width: 670px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
@@ -23,8 +24,13 @@ hero {
 	flex-flow: row;
 	justify-content: center;
 	align-content: center;
-	font-size: calc(15px + 3vw);
+	font-size: 50px;
 	color: #464646;
+    padding-bottom: 30px;
+}
+
+.smaller{font-size: 40px;
+    padding-bottom: 10px;
 }
 
 .light {
@@ -32,34 +38,39 @@ hero {
 }
 
 .mediumText {
-	width: 50%;
 	font-size: 120%;
-	
+	text-align: center;
+    padding-top: 10px;
 }
 
 header {
 	display: flex;
+    flex-flow: column;
+    align-content: center;
+    text-align: center;
 	justify-content: center;
 	
 }
 
 .section {
-	display: flex;
+    display: flex;
 	flex-flow: column;
 	align-self: stretch;
-	align-content: center;
-	background-color: #E5E5E5;
+	align-items: center;
 	justify-content: center;
+    text-align: center;
+	align-content: center;
 	padding-bottom: 2em;
 	padding-left: 2em;
 	padding-right: 2em;
+    padding-top: 2em;
 }
 
 .boxContainer {
 	display: flex;
 	flex-flow: row;
 	align-self: center;
-	
+    padding-top: 20px;
 }
 
 .box{
@@ -92,4 +103,49 @@ circle{
 	margin-bottom: 20px;
 }
 
+.appBoxContainer {
+	display: flex;
+	flex-flow: column;
+	align-self: center;
+    padding-top: 30px;
+}
 
+.appProcessBox{
+    display: flex;
+	flex-flow: row;
+	flex: 1;
+	background-color: white;	
+	padding: 30px 30px;
+	margin: 10px;
+	border-radius: 5px;
+	justify-content: space-between;
+}
+
+.appIconBox{
+    display: flex;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+}
+
+.appProcessText{
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    text-align: center;
+}
+
+
+heroImageContainerLeft {
+    position: absolute;
+    left: -120px;
+    top: 90px;
+    width: 700px;
+}
+
+heroImageContainerRight {
+    position: absolute;
+    right: -40px;
+    top: 120px;
+    width: 400px;
+}

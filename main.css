@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-family: Open Sans, Verdana, "sans-serif";
 	margin: 0px;
 	display: flex;
 	flex-flow: column;
@@ -10,64 +10,67 @@ body{
 }
 
 
-.usualButton {
-	display: flex;
-	padding: 0.5em 0.5em;
-	background-color: #ffffff;
-	border-radius: 5px;
-	line-height: 1.5;
-	letter-spacing: 0.1rem;
-	text-indent: 0.1rem;
-	align-self: center;
-	background-color: #EF0000;
-	color: white;
-	text-decoration: none;
-	
-	
-}
+
 
 #headings{
 	display: flex;
 	flex-flow: row;
 	align-content: stretch;
 	justify-content: center;
-	background-color: #ef0000;
-	height: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 navbar {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+    flex-flow: row;
 }
 
-#logo{
-	display: flex;
-	color: #ffffff;
-}
+
 
 .navi{
 	display: flex;
-	
-}
-
-.navi li{
-	display: flex;
 	padding: 0.5em 0.5em;
-	background-color: #ffffff;
-	border-radius: 5px;
+    font-size: 14px;
 	line-height: 1.5;
-	letter-spacing: 0.1rem;
+	letter-spacing: 1px;
 	text-indent: 0.1rem;
-	margin-left: 15px;
 	align-self: center;
-	background-color: #ffffff;
 	color: #464646;
+	text-decoration: none;
 	
 	
 }
 
 .navi a{
 	text-decoration: none;
+}
+
+linksLeft{
+    display: flex;
+    flex-flow: row;
+    align-content: space-around;
+}
+
+linksRight{
+    display: flex;
+    flex-flow: row;
+    align-content: space-around;
+}
+
+logoContainer {
+    display:flex;
+    flex-flow: column;
+    align-content: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
+}
+
+logoContainer p{
+    font-weight: 400;
 }
 
 .widthControl{
@@ -92,4 +95,8 @@ navbar {
 		padding-bottom: 10px;
 		text-align: center;
 	}
+}
+
+#gradientBackground {
+    background: linear-gradient(#EBEBEB, white);
 }
