@@ -42,6 +42,15 @@ body{
 }
 
 
+.headingContainerProgressLine {
+    display: flex;
+    flex-flow: column;
+    background-color: #EBEBEB;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
 
 
 #headings{
@@ -53,6 +62,13 @@ body{
     padding-bottom: 2em;
 }
 
+burgerDiv {
+    display: none;
+}
+
+burgerMenu {
+    display: none;
+}
 navbar {
 	display: flex;
 	justify-content: space-around;
@@ -99,6 +115,7 @@ logoContainer {
     color: #00000;
     text-align: center;
     font-size: 2em;
+    font-weight: 700;
 }
 
 logoContainer p{
@@ -107,6 +124,14 @@ logoContainer p{
 
 .widthControl{
 	width: 70%;
+}
+
+.burgerMenuShown {
+    display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 25px;
 }
 
 
@@ -125,26 +150,39 @@ logoContainer p{
 }
 
 @media only screen and (max-width: 600px) {
-
-	
+    
+    #headings{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    burgerDiv{
+        display: flex;
+        padding-right: 20px;
+    }
+    
 	navbar {
-		flex-flow: column;
+		flex-flow: row;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-between;
 		padding-bottom: 10px;
 		text-align: center;
 	}
+    
+    #desktopNavi {
+        display: none;
+    }
+    
+    logoContainer {
+        padding-left: 20px;
+    }
+    
+    
+    
+    
 }
 
 #gradientBackground {
     background: linear-gradient(#EBEBEB, white);
 }
 
-.headingContainerProgressLine {
-    display: flex;
-    flex-flow: column;
-    background-color: #EBEBEB;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-}
