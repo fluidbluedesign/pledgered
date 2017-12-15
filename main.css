@@ -1,6 +1,38 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('Open-Sans-Bold'),
+  url('fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('Open-Sans-SemiBold'),
+  url('fonts/OpenSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('Open-Sans-Light'),
+  url('fonts/OpenSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('Open-Sans-Regular'),
+  url('fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
 body{
 	font-family: Open Sans, Verdana, "sans-serif";
 	margin: 0px;
@@ -19,6 +51,10 @@ body{
 	justify-content: center;
     padding-top: 2em;
     padding-bottom: 2em;
+    background-color: #EBEBEB;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 
 navbar {
@@ -64,7 +100,7 @@ logoContainer {
     flex-flow: column;
     align-content: center;
     justify-content: center;
-    color: #ffffff;
+    color: #00000;
     text-align: center;
     font-size: 2em;
 }
@@ -77,10 +113,19 @@ logoContainer p{
 	width: 70%;
 }
 
-@media only screen and (max-width: 1200px) {
+
+
+
+@media only screen and (max-width: 1400px) {
 	.widthControl {
 		width: 95vw;
 	}
+    heroImageContainerLeft {
+        display: none;
+    }
+    heroImageContainerRight {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 600px) {
