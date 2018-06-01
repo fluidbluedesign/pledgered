@@ -193,7 +193,7 @@ heroImageContainerLeft {
 
 heroImageContainerRight {
     position: absolute;
-    right: -40px;
+    right: 0px;
     top: 120px;
     width: 400px;
 }
